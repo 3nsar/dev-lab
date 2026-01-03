@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Hero from './hero'
 
 
 
@@ -6,10 +7,10 @@ function App() {
 
 
   return (
-    <div>
-
-
-    </div>
+    <>
+    
+      <Hero/>
+    </>
   )
 }
 
