@@ -2,13 +2,13 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className="bg-cyan-950 min-h-screen flex justify-center items-center flex-col">
+    <div className="bg-black min-h-screen flex justify-center items-center flex-col">
       <div className="container mx-auto px-4 py-6 md:py-12">
         <h1 className="text-8xl text-center font-extrabold text-primary-white">Soo tasty....</h1>
 
         <div className="flex justify-center items-center gap-6 mt-10">
 
-
+              {/*BUTTON #1 */}
               <div className="relative">
                 <button className="relative inline-block font-semibold leading-6 text-slate-100 cursor-pointer rounded-2xl p-px group">
                   <span className="absolute inset-0 rounded-2xl bg-linear-to-r from-green-400 via-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -24,6 +24,12 @@ const Hero = () => {
                   </span>
                 </button>
               </div>
+
+              {/*BUTTON #2 */}
+
+            <button  className="rounded-2xl  backdrop-blur-lg font-semibold cursor-pointer  px-5 py-3 text-lg text-slate-100 border  border-indigo-700 bg-indigo-950 hover:bg-[#0b0f2a] transition-colors duration-300">
+              SIGN UP NOW
+            </button>
 
         </div>
       </div>
