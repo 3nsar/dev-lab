@@ -11,30 +11,30 @@ export default[
     
   },
     {
-    "name": "Xerop10",
-    "age": "5",
-    "planet": "Venus",
-    "color": "black",
-    "height": "1.2",
+    "name": "Ajoja",
+    "age": "445",
+    "planet": "Kepler 442B",
+    "color": "gold",
+    "height": "5",
     "img": "https://robohash.org/alien2?set=set2",
     
   },
       {
-    "name": "Soro",
-    "age": "99",
-    "planet": "Mars",
+    "name": "Genoaloa",
+    "age": "39",
+    "planet": "Proxima Centaur",
     "color": "gray",
     "height": "2.2",
-    "img": "https://robohash.org/alien1?set=set2",
+    "img": "https://robohash.org/alien5?set=set2",
     
   },
     {
-    "name": "Xerop10",
-    "age": "5",
+    "name": "Lotus",
+    "age": "53",
     "planet": "Venus",
-    "color": "black",
+    "color": "green",
     "height": "1.2",
-    "img": "https://robohash.org/alien2?set=set2",
+    "img": "https://robohash.org/alien6?set=set2",
     
   },
 
