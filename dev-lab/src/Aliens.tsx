@@ -20,18 +20,15 @@ const Aliens = () => {
 
   // Checkbox function
   const handleAlienChange = (name: string) => {
-    setSelectedAliens((prev) =>
-      prev.includes(name)
-        ? prev.filter((n) => n !== name)
-        : [...prev, name]
+    setSelectedAliens((prev) => prev.includes(name) ? prev.filter((n) => n !== name) : [...prev, name]
     );
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-black via-slate-050 to-purple-950 text-primary-white">
+    <div className="min-h-screen bg-linear-to-b from-black via-slate-950 to-purple-950 text-primary-white">
 
       {/* CHECKBOX*/}
-      <div className="flex flex-wrap justify-center py-20">
+      <div className="grid grid-cols-2 sm:grid-cols-4 justify-items-center py-20">
         {aliens.map((alien) => (
           <label
             key={alien.name}
@@ -65,6 +62,7 @@ const Aliens = () => {
                 <p className="font-bold text-2xl mt-5">{alien.name}</p>
                 <p className="text-lg">Age: {alien.age}</p>
                 <p className="text-lg">Height: {alien.height}m</p>
+                <p className="text-lg">Color: {alien.color}</p>
                 <p className="text-lg">Planet: {alien.planet}</p>
               </div>
             ))}
