@@ -39,12 +39,23 @@ export default[
   },
 
       {
-    "name": "Han",
+    "name": "Koju",
     "age": 38,
-    "planet": "mercury",
+    "planet": "Mercury",
     "color": "green",
     "height": 9,
     "img": "https://robohash.org/alien7?set=set2",
+    
+  },
+
+
+  {
+    "name": "Ruba",
+    "age": 125,
+    "planet": "Neptun",
+    "color": "orange",
+    "height": 3.5,
+    "img": "https://robohash.org/alien10?set=set2",
     
   },
 
