@@ -25,7 +25,7 @@ const Aliens = () => {
   };
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-black via-slate-950 to-purple-950 text-primary-white">
+    <div className="min-h-screen bg-linear-to-b from-black via-slate-950 to-purple-950 text-slate-100">
 
       {/* CHECKBOX*/}
       <div className="grid grid-cols-2 sm:grid-cols-4 justify-items-center py-20">
